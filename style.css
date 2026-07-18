@@ -95,3 +95,35 @@ footer
     text-align : center;
     padding : 20px;
 }
+@media (max-width: 768px) {
+
+    .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+
+    table {
+        width: 95%;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .buttons {
+        position: static;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
